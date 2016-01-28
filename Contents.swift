@@ -48,7 +48,6 @@ class ATM {
     private var startPie: MoneyPie {
         return self.hundred
     }
-    
     init(hundred: MoneyPie,fifty:MoneyPie,twenty:MoneyPie,ten:MoneyPie){
         self.hundred = hundred
         self.fifty = fifty
@@ -71,3 +70,4 @@ atm.canWithdraw(310)
 atm.canWithdraw(200)
 atm.canWithdraw(78)
 atm.canWithdraw(30)
+
